@@ -14,7 +14,7 @@ function getComputerChoice() {
 
 function getHumanChoice() { 
     const choice = String(prompt("Choose rock, paper, or scissors"));    
-    return choice;
+    return choice.toLowerCase();
 }
 
 /*
