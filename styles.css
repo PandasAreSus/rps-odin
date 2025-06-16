@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 24);
+}
+
+#container {
+    min-height: 10vh;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {    
+    background-color: #272927bb; /* Green */
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+}
+
+#results {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+
+#instruct {
+    margin-bottom: 30px;
+}
+
+#roundCt {
+    color: wheat
+}
+
+#humScore {
+    color: rgb(0, 195, 255);
+}
+
+#comScore {
+    color: red;
+}

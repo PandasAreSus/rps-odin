@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS Solution</title>
-    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
-    
+    <div id="container">
+        <button id="btnR">Rock</button>
+        <button id="btnP">Paper</button>
+        <button id="btnS">Scissors</button>
+    </div>
+    <div id="results">
+        <h3 id="instruct">Select one of the above!</h3>
+        <h3 id="roundRes">You chose <span id="pChoice" style="color:rgb(0, 195, 255)">?</span> 
+             and the computer chose <span id="cChoice" style="color:red">?</span></h3>
+        <h3 id="roundCt">Round: 0</h3>
+        <h3 id="humScore">Human: 0</h1>
+        <h3 id="comScore">Computer: 0</h1>
+    </div>
 </body>
 </html>
